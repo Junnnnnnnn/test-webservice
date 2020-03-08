@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml version="1.0" ?>
+<S:Envelope
+	xmlns:S="http://schemas.xmlsoap.org/soap/envelope/">
+	<S:Body>
+		<ns2:sayHelloResponse
+			xmlns:ns2="http://controller.ws.zz.com/">
+			<returnVal>
+				<bookName>寮犱笁</bookName>
+				<price>12</price>
+				<writer>jkjks</writer>
+			</returnVal>
+			<returnVal>
+				<bookName>寮犱笁33</bookName>
+				<price>13</price>
+				<writer>jkjks333</writer>
+			</returnVal>
+			<returnVal>
+				<bookName>寮犱笁44</bookName>
+				<price>18</price>
+				<writer>jkjks444</writer>
+			</returnVal>
+		</ns2:sayHelloResponse>
+	</S:Body>
+</S:Envelope>
